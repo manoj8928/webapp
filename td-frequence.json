@@ -11,7 +11,7 @@
                     "protocol": "tcp"
                 }
             ],
-            "name": "frequence-service-dev",
+            "name": "webapp-task-definition",
             "image": "manoj1992/test:v_BUILD_NUMBER",
             "cpu": 1
         }
