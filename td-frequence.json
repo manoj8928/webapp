@@ -12,7 +12,7 @@
                 }
             ],
             "name": "webapp-task-definition",
-            "image": "manoj1992/test:v_BUILD_NUMBER",
+            "image": "543816070942.dkr.ecr.us-east-1.amazonaws.com/demo-usap:v_BUILD_NUMBER",
             "cpu": 1,
             "logConfiguration": {
                 "logDriver": "awslogs",
