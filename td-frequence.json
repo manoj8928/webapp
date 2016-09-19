@@ -12,7 +12,7 @@
                 }
             ],
             "name": "frequence-service-dev",
-            "image": "manoj1992/test:latest",
+            "image": "manoj1992/test:v_$BUILD_NUMBER",
             "cpu": 1
         }
     ]
