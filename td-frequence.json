@@ -13,7 +13,15 @@
             ],
             "name": "webapp-task-definition",
             "image": "manoj1992/test:v_BUILD_NUMBER",
-            "cpu": 1
+            "cpu": 1,
+            "logConfiguration": {
+                "logDriver": "awslogs",
+                "options": {
+                    "awslogs-group": "webapp-logs",
+                    "awslogs-region": "us-east-1",
+                    "awslogs-stream-prefix": "webapp"
+                }
+            }
         }
     ]
 }
